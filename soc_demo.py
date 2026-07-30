@@ -16,7 +16,6 @@ import random
 from openai import OpenAI
 import flintai
 
-client = OpenAI(api_key="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")
 
 client = flintai.wrap (
     client,
